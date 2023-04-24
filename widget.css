@@ -1,0 +1,38 @@
+/* Dark mode styles */
+
+.widget {
+  background-color: #3d3d3d;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.widget h2 {
+  margin-top: 0;
+}
+
+.widget table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.widget th,
+.widget td {
+  border: 1px solid #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.widget th {
+  background-color: #666;
+  font-weight: bold;
+}
+
+.widget td:first-child {
+  text-align: left;
+}
